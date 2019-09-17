@@ -1,0 +1,23 @@
+.banner div div h2 {
+	color: #fff;
+	font-size: 64px;
+	font-weight: bolder;
+	margin: 0 0 10px 0;
+	padding: 0;
+	-webkit-text-shadow: 1px 2px 10px rgba(0,0,0,0.10);
+	text-shadow: 1px 2px 10px rgba(0,0,0,0.10)
+}
+@media (max-width:767px) {
+.banner div {
+	padding-top: 11em
+}
+.banner div div p {
+	font-size: 14px;
+	line-height: 24px
+}
+.banner div div h2 {
+	font-size: 36px
+}
+}
+
+ 
