@@ -256,8 +256,7 @@ header .nav_m ul .cur a{ background-color:#e6be19; -moz-border-radius:5px; -webk
 .nav_1{ display:none;}
 
 /*Banner*/
-.banner{ width:100%; height:auto; overflow:hidden; position:relative; margin-top:111px;}
-/* .banner{ width:100%; height:auto; overflow:hidden; position:relative;font-size:0; margin-top:111px;} */
+.banner{ width:100%; height:auto; overflow:hidden; position:relative;font-size:0; margin-top:111px;}
 .index_banner{position:relative;}
 .index_banner ul{overflow:hidden;}
 .index_banner li{position:absolute;top:0;left:0;overflow:hidden;width:100%;height:auto;}
