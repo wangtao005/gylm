@@ -11,8 +11,98 @@
     <link href="../css/style.css"  rel="stylesheet" />
     <title></title>
     <style type="text/css">
+    <style type="text/css">
+ 
+	.bg{
+		width: 100%;
+		height: 100%;
+		background: url(index_files/bg.png)no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.logo_GYLM{
+		width: 150px;
+		height: 150px;
+		text-align: center;
+		position: absolute;
+		left: 15px;
+		top: 30px;
+	}
+	.contain{
+		width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+	}
+	.cover{
+
+   background: url(index_files/pc_shouji.png) 0 0 no-repeat;
+    width: 388px;
+    height: 640px;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+	}
+	.text{
+		    color: #fff;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 671px;
+    height: 250px;
+    text-align: center;
+	}
+	.text img{
+		width: 75%;
+	}
+	.d-btns {
+    position: absolute;
+    right: 7.8%;
+    bottom: 20%;
+    width: 50% ;
+    display: inline-flex;
+}
+.d-btns .d-btn {
+    float: left;
+/*     border: 2px solid #fff; */
+    border-radius: 16px;
+    width: 290px;
+    height: 90px;
+    line-height: 88px;
+    font-size: 26px;
+/*     color: #fff; */
+    cursor: pointer;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.d-btns .d-btn:hover {
+    opacity: 1 }
+.d-btns .d-icon {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+}
+.d-btns .d-icon img {
+    width: 100%;
+    vertical-align: middle;
+}
+.d-btn span{
+	color: #fff;
+}
+.beian {
+   color: #fff;
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+    font-size: .8rem; }
+    .beian span{
+    	color: #fff
+    }
+    
 	.bg-texture {
-		height: 1000px;
+		height: 900px;
 		background: linear-gradient(-45deg, #ffb300 33%, transparent 0),
 			linear-gradient(-45deg, #512da8 100%, transparent 0);
 	}
@@ -37,11 +127,11 @@
             $("body,html").animate({ scrollTop: 0 }, 500);
             return false;
         }
-        document.oncontextmenu = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽右键菜单
-        document.onpaste = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽粘贴
-        document.oncopy = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽复制
-        document.oncut = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽剪切
-        document.onselectstart = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽选择
+//         document.oncontextmenu = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽右键菜单
+//         document.onpaste = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽粘贴
+//         document.oncopy = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽复制
+//         document.oncut = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽剪切
+//         document.onselectstart = function (event) { if (window.event) { event = window.event; } try { var the = event.srcElement; if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) { return false; } return true; } catch (e) { return false; } } //屏蔽选择
     </script>
 </head>
 <body>
@@ -92,13 +182,51 @@
     </header>
     
     <div  class ="bg-texture" >
-        
-         阿斯顿发发
+        <div class="bg">
+    <div class="logo_GYLM">
+        <img src="../html/downImg/logo.png">
+    </div>
+    <div class="contain clearfix">
+        <div class="cover fl">
+            <img src="../html/downImg/pc_shouji.png">
+        </div>
+        <div class="text fr">
+            <img src="../html/downImg/gy_zi.png">
+        </div>
+        <div class="d-btns clearfix">
+            <a href="http://t.cn/RnLJSx0" style="display: block">
+                <div class="d-btn d-action appstore" data-target="iphone">
+                    <i class="d-icon apple-icon">
+                        <img src="../html/downImg/pc_area1_2.png" alt="高佣联盟苹果下载">
+                    </i>
+                    <span>
+                       App Store下载
+                    </span>
+                </div>
+            </a>
+            <br>
+            <a href="http://android.myapp.com/myapp/detail.htm?apkName=com.shangfang.gylm&ADTAG=mobile" style="display: block">
+                <div class="d-btn d-action android" data-target="android">
+                    <i class="d-icon android-icon">
+                        <img src="../html/downImg/pc_area1_3.png" alt="高佣联盟安卓下载">
+                    </i>
+                    <span>
+                        Android下载
+                    </span>
+                </div>
+            </a>
+        </div>
+        <p class="f12 beian">
+                       <small style=" font-size: 20px; color:#ffffff;">邀请码：</small><small style=" font-size: 20px; color:#FFFF00;">18349252480</small></br><small style=" font-size: 20px; color:#ffffff;">微信：CDUJIT</small>
+                    </p>
+    </div>
+</div>
+          
     </div>
     
 
     <div class="bt_3">
-        <span class="txt_1">关于我们</span> &nbsp; <span class="txt_22">ABOUT <span class="txt_23">
+        <span class="txt_1">关于APP</span> &nbsp; <span class="txt_22">ABOUT <span class="txt_23">
             US</span></span></div>
     <div class="content_1">
         <div class="left_in1 f_l  bounceInLeft">
@@ -106,11 +234,15 @@
                 <span class="txt_20 txt_28">我们是谁？</span><br>
                 <span class="txt_24">懂您所需、做您所想</span></div>
             <div class="content_x">
-                <p>乙亥科技有限公司，是中国领先的海外精准营销服务商，俄罗斯Yandex授权代理商，微软bing搜索授权代理商，韩国Naver授权代理商，Mytarget授权代理商，同时也是济南市高校毕业生就业见习基地，山东省电子商务协会理事单位，山东省电子商务促进会会员单位。是一家以互联网产业为核心，以提升中国企业互联网营销竞争力为使命，从软件开发到程序制定，为国内外大中小型企业进行多语言电子商务平台建设、海内外电子商务营销、托管、数据分析等一站式服务的网络营销策划公司。针对海外业务，重点在海外平台的全方位服务，如Yandex、Google、Naver、facebook、Mytarget、YouTube、VK、bing、LinkedIn等或是客户指定的第三方平台，为客户提供完善的线上服务，线下数据分析。目前为国内知名品牌力帆集团、中国重汽、宗申集团、海南航空等企业提供互联网外包服务。还和香港、俄罗斯、韩国、澳大利亚等多个国家和地区的多家公司展开了贸易来往，并建立了长期良好的合作关系。&nbsp;</p><p>公司拥有一批经验丰富的营销顾问、技术骨干和资深客服，共同为实现公司愿景而不懈努力。公司本科或以上学历的员工比例超过60%，员工平均年龄26岁，在打造新的企业文化的过程中不断实现着自我价值。公司本着“人尽其才，才尽其用”的用人原则，最大限度的激发员工的积极性和创造性；始终以“人”为本，最大限度的追求公司与员工的双赢，在企业迅速发展的同时，更为员工制定了科学合理的职业生涯规划，并为员工提供了充足的个人发展空间。&nbsp;</p><p>为了在激烈的市场竞争中迅速发展壮大，我们不断的吸取先进技术及管理经验，不断完善自我。公司始终本着“以客户为中心”指导思想，一切为您提高成效。我们的努力，加上您的信任，定会让这支队伍成长为互联网营销界一颗璀璨的明珠。</p>
-            </div>
+				<p>乙亥科技有限公司，是中国领先的海外精准营销服务商，俄罗斯Yandex授权代理商，微软bing搜索授权代理商，韩国Naver授权代理商，Mytarget授权代理商，同时也是济南市高校毕业生就业见习基地，山东省电子商务协会理事单位，山东省电子商务促进会会员单位。是一家以互联网产业为核心，以提升中国企业互联网营销竞争力为使命，从软件开发到程序制定，为国内外大中小型企业进行多语言电子商务平台建设、海内外电子商务营销、托管、数据分析等一站式服务的网络营销策划公司。针对海外业务，重点在海外平台的全方位服务，如Yandex、Google、Naver、facebook、Mytarget、YouTube、VK、bing、LinkedIn等或是客户指定的第三方平台，为客户提供完善的线上服务，线下数据分析。目前为国内知名品牌力帆集团、中国重汽、宗申集团、海南航空等企业提供互联网外包服务。还和香港、俄罗斯、韩国、澳大利亚等多个国家和地区的多家公司展开了贸易来往，并建立了长期良好的合作关系。&nbsp;</p>
+				<p>公司拥有一批经验丰富的营销顾问、技术骨干和资深客服，共同为实现公司愿景而不懈努力。公司本科或以上学历的员工比例超过60%，员工平均年龄26岁，在打造新的企业文化的过程中不断实现着自我价值。公司本着“人尽其才，才尽其用”的用人原则，最大限度的激发员工的积极性和创造性；始终以“人”为本，最大限度的追求公司与员工的双赢，在企业迅速发展的同时，更为员工制定了科学合理的职业生涯规划，并为员工提供了充足的个人发展空间。&nbsp;</p>
+				<p>为了在激烈的市场竞争中迅速发展壮大，我们不断的吸取先进技术及管理经验，不断完善自我。公司始终本着“以客户为中心”指导思想，一切为您提高成效。我们的努力，加上您的信任，定会让这支队伍成长为互联网营销界一颗璀璨的明珠。</p>
+
+
+			</div>
         </div>
         <div class="right_in1 f_r  bounceInRight">
-            <img alt="about" class="pp" src="images/mxal01.png" >
+            <img alt="about" class="pp" src="../images/mxal01.png" >
         </div>
     </div>
     <div class="content_1 bak_4">
@@ -148,7 +280,7 @@
             </div>
         </div>
         <div class="right_in1 f_r  bounceInRight">
-            <img src="images/about_culture_img.gif" >
+            <img src="../images/about_culture_img.gif" >
         </div>
     </div>
     
@@ -177,7 +309,7 @@
                 <span>当前服务已超过2356家企业客户</span></li>
         </ul>
     </div>
-    <script type="text/javascript" src="js/time.js" ></script>
+    <script type="text/javascript" src="../js/time.js" ></script>
 
     <div class="foot">
         <div class="foot_m">
@@ -188,7 +320,7 @@
                 <p>
                     乙亥科技有限公司成立于2007年，是中国领先的海外精准营销服务商，俄罗斯Yandex授权代理商，微软bing搜索授权代理商，韩国Naver授...
                 </p>
-                <a class="about-button" href="About.html" >查看更多 >></a>
+                <a class="about-button" href="../About.html" >查看更多 >></a>
             </div>
             <div class="foot-list foot-list-02">
                 <h2>
@@ -198,7 +330,7 @@
                     <div class="foot-case-list">
                         <dl>
                             <dt>
-                                <img src="images/ww (2).jpg" 
+                                <img src="../images/ww (2).jpg" 
                                     width="76" height="51" /></dt>
                             <dd>
                                 <span>
@@ -210,7 +342,7 @@
                     <div class="foot-case-list">
                         <dl>
                             <dt>
-                                <img src="images/ww (4).jpg" 
+                                <img src="../images/ww (4).jpg" 
                                     width="76" height="51" /></dt>
                             <dd>
                                 <span>
@@ -236,7 +368,7 @@
                 <br />
                 微信扫一扫 搜索联盟为您服务
                 <br />
-                <img alt="weixin" src="images/code1.png"  width="90" height="90" />
+                <img alt="weixin" src="../images/code1.png"  width="90" height="90" />
             </div>
         </div>
         <div class="foot-o">
@@ -249,19 +381,19 @@
         <table width="94%" border="0" cellspacing="0" cellpadding="0" style="margin: auto;">
             <tr>
                 <td>
-                    <img src="images/icon_14.png"  /><br />
+                    <img src="../images/icon_14.png"  /><br />
                     <a href="index.htm" >返回首页</a>
                 </td>
                 <td>
-                    <img src="images/icon_11.png"  /><br />
+                    <img src="../images/icon_11.png"  /><br />
                     <a href="Contact.html" >联系我们</a>
                 </td>
                 <td>
-                    <img src="images/icon_12.png"  /><br />
+                    <img src="../images/icon_12.png"  /><br />
                     <a href="tel:18660103869">拨打电话</a>
                 </td>
                 <td>
-                    <img src="images/icon_13.png"  /><br />
+                    <img src="../images/icon_13.png"  /><br />
                     <a href="sms:18660103869">发送短信</a>
                 </td>
             </tr>
@@ -281,19 +413,19 @@
                     返回顶部</label></a> </li>
         </ul>
     </div>
-    <script src="js/wow.min.js" ></script>
+    <script src="../js/wow.min.js" ></script>
     <script>
         if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
             new WOW().init();
         };
     </script>
-	<div class="xs-message">
-		<script language="javascript" src="../dkb.duokebo.com/js/detector.aspx-siteid=837766" ></script>
-	</div>
+<!-- 	<div class="xs-message"> -->
+<!-- 		<script language="javascript" src="../dkb.duokebo.com/js/detector.aspx-siteid=837766" ></script> -->
+<!-- 	</div> -->
 	
-    <!-- JiaThis Button BEGIN -->
-    <script type="text/javascript" src="../v3.jiathis.com/code/jiathis_r.js-type=left&move=0" 
-        charset="utf-8"></script>
-    <!-- JiaThis Button END -->
+<!--     JiaThis Button BEGIN -->
+<!--     <script type="text/javascript" src="../v3.jiathis.com/code/jiathis_r.js-type=left&move=0"  -->
+<!--         charset="utf-8"></script> -->
+<!--     JiaThis Button END -->
 </body>
 </html>
