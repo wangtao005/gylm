@@ -2,16 +2,22 @@
 	color: #fff;
 	font-size: 64px;
 	font-weight: bolder;
-	margin: 0 0 10px 0;
+/* 	margin: 0 0 10px 0; */
 	padding: 0;
 	-webkit-text-shadow: 1px 2px 10px rgba(0,0,0,0.10);
 	text-shadow: 1px 2px 10px rgba(0,0,0,0.10)
+}
+.banner .myData {
+	position:absolute;
+	left:40%;
+	top:30%;
+	z-index: 10;
 }
 .banner div div h4 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: bolder;
-	margin: 0 0 10px 0;
+/* 	margin: 0 0 10px 0; */
 	padding: 0;
 	-webkit-text-shadow: 1px 2px 10px rgba(0,0,0,0.10);
 	text-shadow: 1px 2px 10px rgba(0,0,0,0.10)
@@ -20,7 +26,7 @@
 	color: #fff;
 	font-size: 20px;
 	font-weight: bolder;
-	margin: 0 0 10px 0;
+/* 	margin: 0 0 10px 0; */
 	padding: 0;
 	-webkit-text-shadow: 1px 2px 10px rgba(0,0,0,0.10);
 	text-shadow: 1px 2px 10px rgba(0,0,0,0.10)
@@ -42,31 +48,194 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin: 0;
 	padding: 0
 }
-@media (max-width:767px) {
-.banner div {
-	padding-top: 11em
-}
-.banner div div p {
-	font-size: 14px;
-	line-height: 10px
-}
-.banner div div h2 {
-	font-size: 24px;
-	line-height: 10px
-}
-.banner div div h4 {
-	font-size: 14px;
-	line-height: 10px
-}
-.banner div div h5 {
-	line-height: 10px
-}
-.banner div div h5 a {
-	font-size: 14px;
-	line-height: 10px
-}
-}
- 
+
+
+@media (min-width: 500px){
+ .banner div div h2{
+  	font-size: 24px
+  }
+ .banner div div h4 { 
+  	font-size: 12px
+  }
+ .banner div div h5 a { 
+  	font-size: 7px
+  }
+ .banner div cite {
+	display: none;
+  }
+ .banner .myData {
+    top: 7%;
+  }
+} 
+@media (min-width: 600px){
+ .banner div div h2{
+  	font-size: 28px
+  }
+ .banner div div h4 { 
+  	font-size: 14px
+  }
+ .banner div div h5  a { 
+  	font-size: 8px
+  }
+ .banner div cite {
+	display: none;
+  }
+   .banner .myData {
+    top: 8%;
+  }
+} 
+@media (min-width: 700px){
+ .banner div div h2{
+  	font-size: 32px
+  }
+ .banner div div h4 { 
+  	font-size: 16px
+  }
+ .banner div div h5  a { 
+  	font-size: 9px
+  }
+ .banner div cite {
+	display: none;
+  }
+   .banner .myData {
+    top: 9%;
+  }
+} 
+@media (min-width: 800px){
+ .banner div div h2{
+  	font-size: 36px
+  }
+ .banner div div h4 { 
+  	font-size: 18px
+  }
+ .banner div div h5  a { 
+  	font-size: 11px
+  }
+ .banner div cite {
+	display: none;
+  }
+ .banner .myData {
+    top: 10%;
+  }
+} 
+@media (min-width: 1024px){
+ .banner div div h2{
+  	font-size: 40px
+  }
+ .banner div div h4 { 
+  	font-size: 20px
+  }
+ .banner div div h5  a { 
+  	font-size: 12px
+  }
+ .banner div cite {
+	display: none;
+  }
+  .banner .myData {
+    top: 11%;
+  }
+} 
+@media (min-width: 1100px) {
+ .banner div div h2{
+  	font-size: 44px
+  }
+ .banner div div h4 { 
+  	font-size: 22px
+  }
+ .banner div div h5  a { 
+  	font-size: 13px
+  }
+ .banner div cite {
+	display: none;
+  }
+  .banner .myData {
+    top: 15%;
+  }
+} 
+@media (min-width: 1280px) {
+ .banner div div h2{
+  	font-size: 48px
+  }
+ .banner div div h4 { 
+  	font-size: 24px
+  }
+ .banner div div h5  a { 
+  	font-size: 14px
+  }
+ .banner div cite {
+	display: none;
+  }
+   .banner .myData {
+    top: 18%;
+  }
+} 
+@media (min-width: 1366px) {
+ .banner div div h2{
+  	font-size: 52px
+  }
+ .banner div div h4 { 
+  	font-size: 26px
+  }
+ .banner div div h5  a { 
+  	font-size: 15px
+  }
+ .banner div cite {
+	display: none;
+  }
+  .banner .myData {
+    top: 20%;
+  }
+}  
+@media (min-width: 1440px) {
+ .banner div div h2{
+  	font-size: 56px
+  }
+ .banner div div h4 { 
+  	font-size: 28px
+  }
+ .banner div div h5  a { 
+  	font-size: 16px
+  }
+ .banner div cite {
+	display: none;
+  }
+   .banner .myData {
+    top: 20%;
+  }
+} 
+@media (min-width: 1680px) {
+ .banner div div h2{
+  	font-size: 60px
+  }
+ .banner div div h4 { 
+  	font-size: 30px
+  }
+ .banner div div h5  a { 
+  	font-size: 17px
+  }
+ .banner div cite {
+	display: none;
+  }
+  .banner .myData {
+    top: 25%;
+  }
+} 
+@media (min-width: 1920px) {
+ .banner div div h2{
+  	font-size: 64px
+  }
+ .banner div div h4 { 
+  	font-size: 32px
+  }
+ .banner div div h5  a { 
+  	font-size: 18px
+  }
+ .banner div cite {
+	display: none;
+  }
+} 
+
+
 .css_btn_class {
     font-size:14px;
     font-family:Arial;
