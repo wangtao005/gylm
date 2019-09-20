@@ -50,6 +50,23 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 
+@media (min-width: 300px){
+ .banner div div h2{
+  	font-size: 20px
+  }
+ .banner div div h4 { 
+  	font-size: 10px
+  }
+ .banner div div h5 a { 
+  	font-size: 5px
+  }
+ .banner div cite {
+	display: none;
+  }
+ .banner .myData {
+    top: 5%;
+  }
+} 
 @media (min-width: 500px){
  .banner div div h2{
   	font-size: 24px
