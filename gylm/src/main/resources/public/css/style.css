@@ -130,7 +130,8 @@ input { outline:medium;}
 }
 .left-toolbar ul li label{ cursor:pointer;}
 
-.left-toolbar ul li span.bar01{background: url("../images/toolbar.png")/*tpa=http://www.jnsslm.com/images/toolbar.png*/ no-repeat left -0px center;}
+/* .left-toolbar ul li span.bar01{background: url("../images/toolbar.png")tpa=http://www.jnsslm.com/images/toolbar.png no-repeat left -0px center;} */
+.left-toolbar ul li span.bar04{background: url("../images/toolbar.png")/*tpa=http://www.jnsslm.com/images/toolbar.png*/ no-repeat left -85px center;}
 .left-toolbar ul li span.bar02{background: url("../images/toolbar.png")/*tpa=http://www.jnsslm.com/images/toolbar.png*/ no-repeat left -26px center;}
 .left-toolbar ul li span.bar03{background: url("../images/toolbar.png")/*tpa=http://www.jnsslm.com/images/toolbar.png*/ no-repeat left -55px center;}
 
