@@ -218,13 +218,13 @@ style type ="text /css">
 				</div>
 				<div class="d-btns clearfix">
 					<a href="" style="display: block">
-						<div class="d-btn d-action appstore" data-target="iphone">
+						<div class="d-btn d-action appstore" id="downApp" data-target="iphone">
 							<i class="d-icon apple-icon"> <img
 								src="../html/downImg/pc_area1_2.png" alt="高佣联盟苹果下载">
 							</i> <span> App Store下载 </span>
 						</div>
 					</a> <br> <a href="" style="display: block">
-						<div class="d-btn d-action android" data-target="android">
+						<div class="d-btn d-action android" data-target="android" id="downApp" >
 							<i class="d-icon android-icon"> <img
 								src="../html/downImg/pc_area1_3.png" alt="高佣联盟安卓下载">
 							</i> <span> Android下载 </span>
@@ -429,7 +429,7 @@ style type ="text /css">
 		};
 	</script>
 	<script>
-		$(".").layer.msg('hello');
+		$("#downApp").layer.msg('hello');
 	</script>
 </body>
 </html>
