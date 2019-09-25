@@ -13,10 +13,11 @@
 <link href="../css/style.css" rel="stylesheet" />
 <title></title>
 <style type="text/css">
+ body .demo-class .layui-layer-title{background:#3498db; color:#fff; border: none;} 
 .bg {
 	width: 100%;
 	height: 100%;
-	background: url(index_files/bg.png) no-repeat;
+/* 	background: url(index_files/bg.png) no-repeat; */
 	background-size: cover;
 	position: relative;
 }
@@ -214,14 +215,15 @@
 					<img src="../html/downImg/gy_zi.png">
 				</div>
 				<div class="d-btns clearfix">
-					<a href="" style="display: block">
-						<div class="d-btn d-action appstore" id="downApp" data-target="iphone">
+					<a href="javascript:void(0)" style="display: block">
+						<div class="d-btn d-action appstore downApp"   data-target="iphone">
 							<i class="d-icon apple-icon"> <img
 								src="../html/downImg/pc_area1_2.png" alt="高佣联盟苹果下载">
 							</i> <span> App Store下载 </span>
 						</div>
-					</a> <br> <a href="" style="display: block">
-						<div class="d-btn d-action android" data-target="android" id="downApp" >
+					</a> <br>
+				   <a href="javascript:void(0)" style="display: block">
+						<div class="d-btn d-action android downApp" data-target="android"  >
 							<i class="d-icon android-icon"> <img
 								src="../html/downImg/pc_area1_3.png" alt="高佣联盟安卓下载">
 							</i> <span> Android下载 </span>
@@ -303,6 +305,7 @@
 		</div>
 		<div class="right_in1 f_r  bounceInRight">
 			<img src="../images/about_culture_img.gif">
+			<img src="../image/1834APP.jpg" style="height: 40px;width: 40px;left: 80px" align="middle">
 		</div>
 	</div>
 
@@ -411,12 +414,9 @@
 	</div>
 	<div class="left-toolbar">
 		<ul>
-			<li><a href=""> <span class="bar04"></span> <label>
-						在线咨询</label></a></li>
-			<li><a href="javascript:void(0)"><span class="bar02"></span>
-					<label> 400-995-5758</label></a></li>
-			<li><a href="javascript:void(0)" onClick="ReturnTop();"><span
-					class="bar03"></span> <label> 返回顶部</label></a></li>
+			<li><a href="javascript:void(0)" id="ask"> <span class="bar04"></span> <label> 在线咨询</label></a></li>
+			<li><a href="javascript:void(0)"><span class="bar02"></span> <label>18349252480</label></a></li>
+			<li><a href="javascript:void(0)" onClick="ReturnTop();"><span class="bar03"></span> <label> 返回顶部</label></a></li>
 		</ul>
 	</div>
 	<script src="../js/wow.min.js"></script>
@@ -426,14 +426,34 @@
 		};
 	</script>
 	<script>
-		console.log(layer);
-		 //弹出一个页面层
-		  $('#downApp').on('click', function(){
+		  $('.downApp').on('click', function(){
+			 var h = document.body.clientHeight;
+			 var hh = h/8;
+			 if(h<400){
+				 hh=0; 
+			 }
 		    layer.open({
 		      type: 1,
-		      area: ['600px', '360px'],
+		      skin: 'demo-class',
+		      offset: hh,
+		      area: ['500px', '360px'],
 		      shadeClose: true, //点击遮罩关闭
-		      content: '\<\div style="padding:20px;">自定义内容\<\/div>'
+		      content: '\<\div style="padding:20px;"  align="middle"><img src="..\/image\/1834APP.jpg" style="height: 150px;width: 150px;"><\/br><H2 style="padding:40px;" >请使用微信扫描二维码下载APP<\/H2>     \<\/div>'
+		    });
+		  });
+		  $('#ask').on('click', function(){
+			  var h = document.body.clientHeight;
+				 var hh = h/8;
+				 if(h<400){
+					 hh=0; 
+				 }
+		    layer.open({
+		      type: 1,
+		      skin: 'demo-class',
+		      offset: hh,
+// 		      area: ['500px', '360px'],
+		      shadeClose: true, //点击遮罩关闭
+		      content: '\<\div style="padding:20px;"  align="middle"><img src="..\/image\/183weixincode.jpg" style="height: 150px;width: 150px;"><\/br><H2 style="padding:40px;" >请使用微信扫描二维码添加客服咨询<\/H2>     \<\/div>'
 		    });
 		  });
 	</script>

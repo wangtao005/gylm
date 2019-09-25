@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="../css/drawer.min.css">
 <script src="../js/jquery.min.js"></script>
 <script src="../js/layer/layer.js"></script>
+<script src="../js/layer/layer.js"></script>
 <script src="../js/iscroll.js"></script>
 <script src="../js/jquery.drawer.min.js"></script>
 <link rel="stylesheet" href="../css/animate.min.css">
@@ -209,12 +210,9 @@
 	</div>
 	<div class="left-toolbar">
 		<ul>
-			<li><a href=""> <span class="bar04"></span> <label>
-						在线咨询</label></a></li>
-			<li><a href="javascript:void(0)"><span class="bar02"></span>
-					<label> 400-995-5758</label></a></li>
-			<li><a href="javascript:void(0)" onClick="ReturnTop();"><span
-					class="bar03"></span> <label> 返回顶部</label></a></li>
+			<li><a href="javascript:void(0)" id="ask"> <span class="bar04" ></span> <label> 在线咨询</label></a></li>
+			<li><a href="javascript:void(0)"><span class="bar02"></span> <label> 18349252480</label></a></li>
+			<li><a href="javascript:void(0)" onClick="ReturnTop();"><span class="bar03"></span> <label> 返回顶部</label></a></li>
 		</ul>
 	</div>
 	<script src="../js/wow.min.js"></script>
@@ -224,7 +222,21 @@
 		};
 	</script>
 	<script>
-		$(".").layer.msg('hello');
+		  $('#ask').on('click', function(){
+			  var h = document.body.clientHeight;
+				 var hh = h/8;
+				 if(h<400){
+					 hh=0; 
+				 }
+		    layer.open({
+		      type: 1,
+		      skin: 'demo-class',
+		      offset: hh,
+// 		      area: ['500px', '360px'],
+		      shadeClose: true, //点击遮罩关闭
+		      content: '\<\div style="padding:20px;"  align="middle"><img src="..\/image\/183weixincode.jpg" style="height: 150px;width: 150px;"><\/br><H2 style="padding:40px;" >请使用微信扫描二维码添加客服咨询<\/H2>     \<\/div>'
+		    });
+		  });
 	</script>
 </body>
 </html>
