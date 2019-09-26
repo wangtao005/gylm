@@ -1,3 +1,4 @@
+ body .demo-class .layui-layer-title{background:#3498db; color:#fff; border: none;}  /* 弹框title颜色*/
 .banner div div h2 {
 	color: #fff;
 	font-size: 64px;
