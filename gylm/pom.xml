@@ -74,4 +74,5 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+	<packaging>war</packaging>
 </project>
