@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /bin/
+Sitemap: http://www.gylm.vip/sitemap.xml
+Sitemap: http://www.gylm.vip/sitemap.html
