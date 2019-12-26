@@ -1,62 +1,25 @@
-#server:
-# port: 8080
-# tomcat:
-#  uri-encoding: UTF-8
-#
-#spring:
-#  datasource:
-#   driver-class-name: com.mysql.jdbc.Driver
-#   url: jdbc:mysql://localhost:3306/gylm?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&useOldAliasMetadataBehavior=true&serverTimezone=UTC 
-#   username: root
-#   data-password: 123456
-#
-#
-#  jpa:
-#   database-platform: org.hibernate.dialect.MySQL5Dialect
-#   show-sql: true
-#   hibernate: 
-#    ddl-auto: update
-#
-
-
-
- server:
-  port: 8080
-  tomcat:
-    uri-encoding: UTF-8
- spring:
-#  jackson:
-#    default-property-inclusion: NON_NULL
-  thymeleaf:
-    prefix: classpath:/public/
-    suffix: .html
-    mode: LEGACYHTML5
-    encoding: UTF-8
-    cache: false
-    enabled: true
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver   # com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/gylm?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&useOldAliasMetadataBehavior=true&serverTimezone=UTC
-#    url: jdbc:mysql://192.168.2.200:3306/gylm?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&useOldAliasMetadataBehavior=true&serverTimezone=UTC
-    username: root
-    password: 123456
-#    password: root
-#    password: WANGtao005@hotmail.com
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  #不加这句则默认为myisam引擎,该引不是事务安全的，而且不支持外键
-    show-sql: true
-    hibernate:
-      ddl-auto: update
- 
-
-
-
- 
-
-
- 
-
-
+server:
+ port: 8080
+ tomcat:
+  uri-encoding: UTF-8
+spring:
+ thymeleaf:
+  prefix: classpath:/public/
+  suffix: .html
+  mode: LEGACYHTML5
+  encoding: UTF-8
+  cache: false
+  enabled: true
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/gylm?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowMultiQueries=true&useOldAliasMetadataBehavior=true&serverTimezone=UTC
+  username: root
+  password: 123456
+ jpa:
+  database-platform: org.hibernate.dialect.MySQL5InnoDBDialect  #不加这句则默认为myisam引擎,该引不是事务安全的，而且不支持外键
+  show-sql: true
+  hibernate:
+   ddl-auto: update
 
 
 

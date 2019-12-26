@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: 
 Disallow: /bin/
+Allow:/
 Sitemap: http://www.gylm.vip/sitemap.xml
 Sitemap: http://www.gylm.vip/sitemap.html

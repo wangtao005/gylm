@@ -1,111 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
- <loc>http://gylm.vip</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>http://gylm.vip/index.html</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>http://gylm.vip/html/matter.html</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>http://gylm.vip/html/appdownload.html</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>http://gylm.vip/html/seller.html</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>https://vzan.com/live/liveintroduce-239151886?shareuid=3486729</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>https://vzan.com/live/liveintroduce-747957214?from=singlemessage&amp;isappinstalled=0</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>http://gyhb.gylm2.com/gylm/business/v1/index</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>http://gyhb.gylm2.com/gylm/business/v1/info?id=59</loc>
- <priority>0.5</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>http://gylm.vip/html/income.html</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>http://uee.me/axJbt</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>http://uee.me/axJap</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://share.weiyun.com/5PjjtBI</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>http://gylm.vip/sitemap.html</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>daily</changefreq>
-</url>
-<url>
- <loc>https://www.baidu.com</loc>
- <priority>0.9</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://www.163.com/</loc>
- <priority>0.5</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://weibo.com/</loc>
- <priority>0.5</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-<url>
- <loc>https://hao.360.com</loc>
- <priority>0.5</priority>
- <lastmod>2019-10-19</lastmod>
- <changefreq>weekly</changefreq>
-</url>
+ <url>
+  <loc>http://gylm.vip</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://gylm.vip/index.html</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://gylm.vip/html/matter.html</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://gylm.vip/html/appdownload.html</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://gylm.vip/html/seller.html</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://gylm.vip/html/income.html</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://gylm.vip/sitemap.html</loc>
+  <priority>0.9</priority>
+  <lastmod>2019-10-19</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
 </urlset>
