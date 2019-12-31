@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .css_btn_class:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #20c6cf), color-stop(100%, #20c6cf) );
-    background:-moz-linear-gradient( center top, #20c6cf 5%, #ededed #20c6cf% );
+    background:-moz-linear-gradient( center top, #20c6cf 5%, #ededed #20c6cf%);
     background:-ms-linear-gradient( top, #20c6cf 5%, #20c6cf 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#20c6cf', endColorstr='#20c6cf');
     background-color:#20c6cf;
@@ -287,7 +287,41 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position:relative;
     top:1px;
 }
+.new_list div {
+    padding-left: 70px;
+    position: relative;
+    padding-top: 10px;
+}
+.new_list div h4{
+    padding-top: 5px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+ .new_list div figure {
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color: #3498DB;
+     margin: 5px 0;
+ }
+ .new_list div figure a {
+     text-indent: -9999px;
+     overflow: hidden;
+     display: block;
+     width: 50px;
+     height: 50px;
+ }
+ .new_list div aside {
+     margin-bottom: 10px;
+     font-size: 12px;
+     color: #777
+ }
+.new_list  p{
+    color: #777;
+    padding-bottom: 10px;
+}
+.new_list  p a{
+    color: #3498db
+}
 
-
-
- 
