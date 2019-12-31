@@ -55,11 +55,11 @@ for (var i=0;i<new_list_info.length;i++) {
             '</article>';
         new_list.push(new_1);
 }
-
+var total = Math.ceil(new_list/10);
 $(function() {
     $("#pagination").pagination({
         currentPage: 1,
-        totalPage: 12,
+        totalPage: total,
         callback: function(current) {
             $("#current1").text(current)
         }
