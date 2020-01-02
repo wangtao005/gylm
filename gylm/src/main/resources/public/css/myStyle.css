@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding:5px 10px;
     text-decoration:none;
     background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #3498db), color-stop(100%, #3498db) );
-    background:-moz-linear-gradient( center top, #3498db 5%, #3498db 100% );
+    /*background:-moz-linear-gradient( center top, #3498db 5%, #3498db 100% );*/
     background:-ms-linear-gradient( top, #3498db 5%, #3498db 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3498db', endColorstr='#3498db');
     background-color:#3498db;
@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .css_btn_class:hover {
     background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #20c6cf), color-stop(100%, #20c6cf) );
-    background:-moz-linear-gradient( center top, #20c6cf 5%, #ededed #20c6cf%);
+    /*background:-moz-linear-gradient( center top, #20c6cf 5%, #ededed #20c6cf%);*/
     background:-ms-linear-gradient( top, #20c6cf 5%, #20c6cf 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#20c6cf', endColorstr='#20c6cf');
     background-color:#20c6cf;
@@ -324,4 +324,25 @@ h1, h2, h3, h4, h5 a, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .new_list  p a{
     color: #3498db
 }
+.div_width {
 
+
+
+
+}
+ @media (max-width: 960px){ /*最大960，小于等于960*/
+     .div_width{
+         width: 90%;
+         height: auto;
+         background-color: #ffffff;
+         padding: 20px 20px 20px 20px;
+     }
+ }
+ @media (min-width: 960px){
+     .div_width{
+         width: 50%;
+         height: auto;
+         background-color: #ffffff;
+         padding: 20px 20px 20px 20px;
+     }
+ }
