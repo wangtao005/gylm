@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/3/3.html",
+            title:"拼多多CPS聚合平台高佣联盟问答",
+            date:"2018-03-07",
+            info:"拼多多CPS聚合平台高佣联盟问答,高佣联盟平台和拼多多达成合作协议,具体问题点击查看详情"
+        },
         {  url:"../information/2/2.html",
             title:"高佣联盟推广术语",
             date:"2018-03-07",
