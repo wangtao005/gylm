@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/23/23.html",
+            title:"即日起基础佣金上调高达11.1%",
+            date:"2019-08-22",
+            info:"为顺应市场的变化，继续保持高佣领先的竞争力，故在今日高佣联盟基础佣金正式上调11.1%"
+        },
         {  url:"../information/22/22.html",
             title:"高佣联盟本地商户系统教程",
             date:"2019-06-30",
