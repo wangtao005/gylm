@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/25/25.html",
+            title:"第二期-高佣联盟快速组建团队-团队建设",
+            date:"2019-11-23",
+            info:"无法成团？会员流失严重？收入增长速度慢？高佣联盟分享嘉宾：阿兔讲师今日给大家谈谈高佣联盟如何快速组建团队如何团队建设 "
+        },
         {  url:"../information/24/24.html",
             title:"第一期-线上精准粉丝引流",
             date:"2019-11-20",
