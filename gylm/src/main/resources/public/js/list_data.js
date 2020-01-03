@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/14/14.html",
+            title:"做高佣圈不住ta的心 因为你少走了这8步",
+            date:"2018-09-05",
+            info:"做高佣圈不住ta的心？因为你少走了这8步，请见详情。"
+        },
         {  url:"../information/13/13.html",
             title:"十分钟成交意向代理——6招来“撩”你",
             date:"2018-09-05",
