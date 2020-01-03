@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/13/13.html",
+            title:"十分钟成交意向代理——6招来“撩”你",
+            date:"2018-09-05",
+            info:"今天的课程时间不长，所以呢，我还有时间给大家讲一个故事，一个真实的故事。十分钟成交意向代理——6招来“撩”你"
+        },
         {  url:"../information/12/12.html",
             title:"让你微信被加爆的吸粉方法",
             date:"2018-08-06",
