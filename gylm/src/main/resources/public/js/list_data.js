@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/27/27.html",
+            title:"高佣联盟4.0版本功能",
+            date:"2019-12-23",
+            info:"高佣联盟4.0版本功能介绍，本次版本的升级主要有个5比较大的改动和大家同步 这几个改动都是和大家的使用息息相关的，首先和大家说说首页的改版内容 "
+        },
         {  url:"../information/26/26.html",
             title:"第三期-做事就像做人 坚持才会有收获",
             date:"2019-11-28",
