@@ -18,10 +18,15 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
-        {  url:"../information/3/3.html",
-            title:"拼多多CPS聚合平台高佣联盟问答",
+        {  url:"../information/4/4.html",
+            title:"高佣联盟官方注册渠道_高佣联盟",
             date:"2018-03-07",
-            info:"拼多多CPS聚合平台高佣联盟问答,高佣联盟平台和拼多多达成合作协议,具体问题点击查看详情"
+            info:"2018年3月2日已有邀请码但是没有激活成功的用【微信扫一扫】这个二维码注册渠道激活。详情...."
+        },
+        {  url:"../information/3/3.html",
+            title:"高佣联盟的赚钱模式及常见问题",
+            date:"2018-03-07",
+            info:"高佣联盟的赚钱模式及常见问题,高佣联盟平台和拼多多达成合作协议,具体问题点击查看详情"
         },
         {  url:"../information/2/2.html",
             title:"高佣联盟推广术语",
