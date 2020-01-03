@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/11/11.html",
+            title:"关于高佣联盟的未来规划和发展",
+            date:"2018-07-16",
+            info:"高佣联盟创始人授课:关于高佣联盟的未来规划和发展！"
+        },
         {  url:"../information/10/10.html",
             title:"高佣联盟发单-云发单",
             date:"2018-05-10",
