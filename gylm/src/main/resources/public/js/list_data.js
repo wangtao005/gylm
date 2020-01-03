@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/7/7.html",
+            title:"拼多多商家如何加入高佣联盟推广",
+            date:"2018-04-08",
+            info:"拼多多商家加入高佣联盟进行推广需要收取服务费用，先与我们沟通具体商品，佣金比例，券后价格及库存，审核后拼多多商家即可在高佣联盟进行推广。拼多多cps是拼团类社交电商的 "
+        },
         {  url:"../information/6/6.html",
             title:"拼多多商家推广",
             date:"2018-04-07",
