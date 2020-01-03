@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/6/6.html",
+            title:"拼多多商家推广",
+            date:"2018-04-07",
+            info:"高佣联盟如何协助商家提高销量： 高佣联盟如何帮助商家为商家服务： 1、 协助拼多多商家提高商品基础销量，我们有超过 1000 万的拼多多优质用户，我们可以协助商家商品从零星"
+        },
         {  url:"../information/5/5.html",
             title:"高佣联盟吸粉",
             date:"2018-03-07",
