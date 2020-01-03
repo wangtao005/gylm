@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/5/5.html",
+            title:"高佣联盟吸粉",
+            date:"2018-03-07",
+            info:"利用满足人们喜欢看高清电影，电视剧得这种大众化需求来进行引流。 很多人都喜欢看电影和追剧，一般他们会去 几大视频网站（优酷，爱奇艺，乐视，芒果TV等等）去看，但是这些"
+        },
         {  url:"../information/4/4.html",
             title:"高佣联盟官方注册渠道_高佣联盟",
             date:"2018-03-07",
