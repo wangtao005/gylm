@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/15/15.html",
+            title:"如何守住你的江山，管理你的千军万马",
+            date:"2018-09-05",
+            info:"高佣联盟如何守住你的江山，管理你的千军万马如此的团结又竞争，就像我们职场上的状况。想象一下自己是否有合群的态度自己的竞争优势又在哪里。 "
+        },
         {  url:"../information/14/14.html",
             title:"做高佣圈不住ta的心 因为你少走了这8步",
             date:"2018-09-05",
