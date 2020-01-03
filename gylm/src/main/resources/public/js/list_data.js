@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/28/28.html",
+            title:"如何高效管理代理群",
+            date:"2020-01-01",
+            info:"高佣联盟商学院第52期：我认为的管理 通过一些方法让团队成员养成良好的作业习惯的一个过程 团队活跃的核心是互赖关系 团队的持久战斗力是群文化 我们要利用互赖关系和群文 "
+        },
         {  url:"../information/27/27.html",
             title:"高佣联盟4.0版本功能",
             date:"2019-12-23",
