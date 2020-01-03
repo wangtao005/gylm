@@ -171,11 +171,11 @@ for (var i=0;i<new_list_info.length;i++) {
         var new_1 = '<article style="padding-top: 10px;margin-bottom: 0;padding-bottom: 0;border-bottom: #ff00ff solid 1px;">' +
             '<div class="new_list">' +
             '<div>' +
-            '<figure ><a style=\'background: url(../../image/gylm.png) no-repeat 0 0;\' href="'+value.url+'">日志样式</a></figure>' +
-            '<h4><a style=\'color: #000;\' href="'+value.url+'" class="external">'+value.title+'</a></h4>' +
+            '<figure ><a target="_blank" style=\'background: url(../../image/gylm.png) no-repeat 0 0;\' href="'+value.url+'">日志样式</a></figure>' +
+            '<h4><a target="_blank" style=\'color: #000;\' href="'+value.url+'" class="external">'+value.title+'</a></h4>' +
             '<aside ><span class="entry-date">高佣联盟官网：'+value.date+'</span></aside>' +
             '</div>' +
-            '<p >'+value.info+'<a href="'+value.url+'"> [查看全文]</a>' +
+            '<p >'+value.info+'<a target="_blank" href="'+value.url+'"> [查看全文]</a>' +
             '</p>' +
             '</div>' +
             '</article>';
