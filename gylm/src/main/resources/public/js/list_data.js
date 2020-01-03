@@ -18,6 +18,21 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/10/10.html",
+            title:"高佣联盟发单-云发单",
+            date:"2018-05-10",
+            info:"高佣联盟云发单介绍及使用方法"
+        },
+        {  url:"../information/9/9.html",
+            title:"高佣联盟如何地推",
+            date:"2018-04-14",
+            info:"今天围绕没人脉怎么办，高佣联盟地推的方法： 一个微信好友不到100人的代理通过一个方法，一周直推800多人，团队裂变3000多人 想知道他高佣联盟地推怎么做的么? 很多人说，我有人脉了再"
+        },
+        {  url:"../information/8/8.html",
+            title:"高佣联盟京东商品免单玩法及讲解",
+            date:"2018-04-12",
+            info:"第一步： 1. 制作个人微信二维码海报（不是高佣联盟邀请码，是微信二维码） 2.文案带海报发圈，转发抢1000万京东免单产品！ 3.转发圈6小时以上，审核通过，拉进群，群里带 4. 注册 "
+        },
         {  url:"../information/7/7.html",
             title:"拼多多商家如何加入高佣联盟推广",
             date:"2018-04-08",
@@ -71,7 +86,7 @@ for (var i=0;i<new_list_info.length;i++) {
             '</article>';
         new_list.push(new_1);
 }
-var pageSize = 10;
+var pageSize = 5;
 var total = Math.ceil(new_list.length/pageSize);
 $(function() {
     if($("#pagination")){
