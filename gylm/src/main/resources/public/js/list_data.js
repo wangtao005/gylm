@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/29/29.html",
+            title:"高佣联盟年货节玩法",
+            date:"2020-01-02",
+            info:"各位高佣联盟的家人们，大家晚上好。我是高佣联盟的紫颜，今天是腊八节，首先要祝大家团团圆圆，幸福美满。 1 在这腊八节之际呢。我们高佣联盟的丽水服务中心和我们的晋江服务 "
+        },
         {  url:"../information/28/28.html",
             title:"如何高效管理代理群",
             date:"2020-01-01",
