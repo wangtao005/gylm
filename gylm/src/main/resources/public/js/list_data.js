@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/30/30.html",
+            title:"高佣联盟会员优势与福利",
+            date:"2020-01-04",
+            info:"关于高佣联盟是什么, 高佣联盟的优势是什么, 高佣联盟会员福利有哪些的回答.详情点击---->"
+        },
         {  url:"../information/29/29.html",
             title:"高佣联盟年货节玩法",
             date:"2020-01-02",
