@@ -18,6 +18,11 @@ $(function(){
 });
 var new_list=[];
 var new_list_info =[
+        {  url:"../information/33/33.html",
+            title:" 高佣联盟4.0版本解析",
+            date:"2020-01-09",
+            info:"高佣联盟4.0版本解析,点击查看详情"
+        },
         {  url:"../information/32/32.html",
             title:" 高佣联盟共享课程  群的玩法及话术",
             date:"2020-01-04",
